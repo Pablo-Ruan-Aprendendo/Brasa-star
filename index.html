@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial | Brasa</title>
+  <link rel="shortcut icon" href="imagens/unknown.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilos/reset.css">
+  <link rel="stylesheet" href="estilos/estilo.css">
+  <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+</head>
+<body class="fundo">
+
+  <header>
+
+    <img src="imagens/unknown.png" alt="logobrasa" id="img-logo">
+
+    <nav>
+      <ul>
+        <li class="menu"><a href="index.html" style="background-color: rgba(102, 205, 171, 0.45);">INÍCIO</a></li>
+        <li class="menu"><a href="terra.html">TERRA</a></li>
+      </ul>
+    </nav>
+    
+
+  </header>
+
+  <main>
+
+    <section id="banner">
+
+      <div id="fotodia">
+        <p>FOTO DO DIA</p>
+      </div>
+      <img id="picture" src="" alt="">
+      <div id="player"></div>
+
+    </section>
+
+    <section id="comentario">
+
+      <div id="title"></div>
+      <div id="date"></div>
+      <div id="explanation"></div>
+    </section>
+
+    <audio src="mixkit"></audio>
+    
+  </main>
+
+  <footer>
+
+    <span>DIREITOS RESERVADOS</span> 
+
+  </footer>
+  <script type="text/javascript" src="js/config.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script src="js/som.js"></script>
+  <script>
+    const img = document.querySelector('img')
+    img.addEventListener('click', function(){
+      const audio = document.querySelector(audio)
+    audio.img()
+    })
+  </script>
+  <script>
+    $('#img-logo').fadeOut("10000").fadeIn("10000")
+    $('#img-logo').fadeOut("20000").fadeIn("30000")
+    $('#img-logo').fadeOut("30000").fadeIn("30000")
+    $('#img-logo').fadeOut("40000").fadeIn("40000")
+    $('#img-logo').fadeOut("50000").fadeIn("50000")
+    $('#img-logo').fadeOut("60000").fadeIn("60000")
+    $('#img-logo').fadeOut("70000").fadeIn("70000")
+    $('#img-logo').fadeOut("80000").fadeIn("80000")
+    $('#img-logo').fadeOut("90000").fadeIn("90000")
+    $('#img-logo').fadeOut("100000").fadeIn("100000")
+
+  </script>
+</body>
+</html>
